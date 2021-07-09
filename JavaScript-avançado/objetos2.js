@@ -19,8 +19,7 @@ const filmes =[
   },
 
 ]
-
+//objetos destructuring
 const [{ id, titulo, descricao, duracao}] = filmes
 
-//filmes.map(filme => console.log(filme))
-filmes.map(filme => console.log(filme.titulo))
+filmes.map(filme => console.log(filme))

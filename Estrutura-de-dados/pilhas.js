@@ -3,7 +3,7 @@ var topo = -1;
 const MAX = 10;
 
 function push(num) {
-  if(topo<MAX) {
+  if(topo < MAX) {
     elementos.push(num)
     topo = topo + 1;
     elementos[topo] = num;

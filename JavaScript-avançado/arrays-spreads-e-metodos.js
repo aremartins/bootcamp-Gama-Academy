@@ -4,7 +4,7 @@ console.log(alunasGama)
 
 //Operador spread(...)
 const alunasXp = [...alunasGama, 'Priscila'];
-//Vai retornar os valores de alunasGama + o
+//Vai retornar os valores de alunasGama + o Xp
 console.log(alunasXp);
 
 //Métodos de iteração:
